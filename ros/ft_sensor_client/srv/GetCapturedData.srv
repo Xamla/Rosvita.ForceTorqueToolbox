@@ -1,0 +1,4 @@
+---
+geometry_msgs/WrenchStamped[] wrenchData
+bool success
+string message

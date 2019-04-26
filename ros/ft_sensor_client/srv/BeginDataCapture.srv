@@ -1,0 +1,8 @@
+float64 frequency
+string referenceFrame
+duration timeout
+int32 maxWrenchCount
+bool nullifyData
+--- 
+bool success
+string message

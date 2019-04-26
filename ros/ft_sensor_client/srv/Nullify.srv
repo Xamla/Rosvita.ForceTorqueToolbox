@@ -1,0 +1,4 @@
+uint32 sampleSize
+---
+bool success
+string message
