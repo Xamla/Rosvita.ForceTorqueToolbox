@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ForceTorqueConfiguration.cs" />
+    <Compile Remove="ForceTorqueGenerator.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Rosvita.Project.Contracts" Version="1.0.2" />
     <PackageReference Include="Rosvita.RosMonitor" Version="1.0.2" />
     <PackageReference Include="Uml.Robotics.Ros.MessageBase" Version="1.0.2" />

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Rosvita.ForceTorqueToolbox
 {
-    [RosComponentAttribute(
+    [RosComponent(
         Name = ConfigurationType,
         DisplayName = "Force Torque Toolbox",
         Manufacturer = "Xamla",
-        Version = "0.0.0.1",
+        Version = "0.0.1",
         Description = "Force Torque Toolbox",
         Hidden = false,
         DefaultNodeName = "ft_sensor_client",
@@ -33,10 +33,6 @@ namespace Rosvita.ForceTorqueToolbox
             Email = "support@xamla.com",
             Url = "http://www.xamla.com/"
         };
-
-        public ForceTorqueConfiguration()
-        {
-        }
 
         [ComponentProperty(DisplayName = "Topic", DefaultValue = DEFAULT_WRENCH_TOPIC)]
         public string Topic { get; set; } = DEFAULT_WRENCH_TOPIC;
